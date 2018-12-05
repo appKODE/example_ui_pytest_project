@@ -21,6 +21,5 @@ class TestUM:
 
     def test_onboarding(self):
         main_page = MainPage(self.driver, self.bundle)
-        sleep(6)
         main_page.click_onboarding()
         main_page.do_swipe_jesture()
