@@ -19,8 +19,8 @@ def get_recent_file(mypath):
 
 def get_bundle(filename):
     if 'dev' in filename:
-        return 'com.appkode.utair.dev'
+        return 'com.app.dev'
     elif 'alpha' in filename:
-        return 'com.appkode.utair.alpha'
+        return 'com.app.alpha'
     else:
-        return 'ru.utair.android'
+        return 'ru.app.android'
